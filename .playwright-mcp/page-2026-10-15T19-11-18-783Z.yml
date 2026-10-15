@@ -1,0 +1,83 @@
+- generic [active] [ref=f3e1]:
+  - banner [ref=f3e2]:
+    - navigation "Primary" [ref=f3e3]:
+      - link "John Doe" [ref=f3e4] [cursor=pointer]:
+        - /url: "#top"
+      - generic [ref=f3e5]:
+        - link "Work" [ref=f3e6] [cursor=pointer]:
+          - /url: "#work"
+        - link "Next" [ref=f3e7] [cursor=pointer]:
+          - /url: "#next"
+        - link "About" [ref=f3e8] [cursor=pointer]:
+          - /url: "#about"
+        - link "Get in touch" [ref=f3e9] [cursor=pointer]:
+          - /url: "#contact"
+  - main [ref=f3e10]:
+    - generic [ref=f3e12]:
+      - generic [ref=f3e13]:
+        - paragraph [ref=f3e14]: Student portfolio
+        - heading "Student developer learning in public." [level=1] [ref=f3e15]
+        - paragraph [ref=f3e16]: I study at university. I shipped one game and I am learning to build code intelligence tools.
+        - generic [ref=f3e17]:
+          - link "View my work" [ref=f3e18] [cursor=pointer]:
+            - /url: "#work"
+          - link "Get in touch" [ref=f3e19] [cursor=pointer]:
+            - /url: "#contact"
+      - img "Placeholder pitch photo until real project screenshots are added" [ref=f3e21]
+    - generic [ref=f3e23]:
+      - paragraph [ref=f3e24]: Selected work
+      - heading "One shipped game, shown properly." [level=2] [ref=f3e25]
+    - generic [ref=f3e27]:
+      - generic [ref=f3e28]:
+        - heading "What I am building next." [level=2] [ref=f3e29]
+        - paragraph [ref=f3e30]: One long term research goal, plus an open slot for whatever I ship this term. New projects appear here automatically.
+      - generic [ref=f3e31]:
+        - article [ref=f3e32]:
+          - generic [aria-hidden] [ref=f3e33]: 
+          - heading "Repository aware code intelligence" [level=3] [ref=f3e34]
+          - paragraph [ref=f3e35]: "A long term goal: tools that read a whole repo, not one file, and help evaluate how well AI coding agents handle real code."
+          - paragraph [ref=f3e36]: "Status: reading and planning"
+        - article [ref=f3e37]:
+          - generic [aria-hidden] [ref=f3e38]: 
+          - heading "Your next project goes here" [level=3] [ref=f3e39]
+          - paragraph [ref=f3e40]: This slot stays empty on purpose. When the next build ships, it gets a full case study like the one above.
+          - paragraph [ref=f3e41]: "Status: open"
+    - generic [ref=f3e42]:
+      - generic [ref=f3e43]:
+        - heading "About John." [level=2] [ref=f3e44]
+        - paragraph [ref=f3e45]: I am a university student exploring software from every angle. I like small shipped things and I am slowly working toward bigger systems.
+      - generic [ref=f3e46]:
+        - generic [ref=f3e47]:
+          - heading "Now" [level=3] [ref=f3e48]
+          - paragraph [ref=f3e49]: Studying, shipping small web games, learning how real codebases fit together.
+        - generic [ref=f3e50]:
+          - heading "Learning" [level=3] [ref=f3e51]
+          - paragraph [ref=f3e52]: TypeScript, React, and the basics of retrieval over code.
+        - generic [ref=f3e53]:
+          - heading "Tools" [level=3] [ref=f3e54]
+          - paragraph [ref=f3e55]: VS Code, Git, GitHub, and Vercel for hosting.
+    - generic [ref=f3e58]:
+      - generic [ref=f3e59]:
+        - heading "Like the game? Say hello." [level=2] [ref=f3e60]
+        - paragraph [ref=f3e61]: I check email between lectures. Feedback on the game is welcome, especially what round felt flat.
+      - generic [ref=f3e62]:
+        - link "Get in touch" [ref=f3e63] [cursor=pointer]:
+          - /url: mailto:hello@example.com
+          - generic [aria-hidden] [ref=f3e64]: 
+          - text: Get in touch
+        - link "GitHub profile" [ref=f3e65] [cursor=pointer]:
+          - /url: https://github.com/
+          - generic [aria-hidden] [ref=f3e66]: 
+          - text: GitHub profile
+  - contentinfo [ref=f3e67]:
+    - generic [ref=f3e68]:
+      - paragraph [ref=f3e69]: John Doe, Student developer. 2026.
+      - generic [ref=f3e70]:
+        - link "Work" [ref=f3e71] [cursor=pointer]:
+          - /url: "#work"
+        - link "Next" [ref=f3e72] [cursor=pointer]:
+          - /url: "#next"
+        - link "About" [ref=f3e73] [cursor=pointer]:
+          - /url: "#about"
+        - link "Get in touch" [ref=f3e74] [cursor=pointer]:
+          - /url: "#contact"

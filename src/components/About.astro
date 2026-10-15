@@ -1,0 +1,27 @@
+---
+import { site } from '../data/site';
+---
+
+<section id="about" class="mx-auto w-full max-w-7xl px-4 py-20 sm:px-6 md:py-28">
+  <div class=" max-w-[65ch]">
+    <h2 class="text-3xl font-bold tracking-tighter md:text-5xl">About {site.name.split(' ')[0]}.</h2>
+    <p class="mt-4 text-base leading-relaxed text-muted">
+      I am a university student exploring software from every angle. I like small shipped things and I am slowly working toward bigger systems.
+    </p>
+  </div>
+
+  <div class="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-3">
+    <div class=" border-l-2 border-accent pl-5">
+      <h3 class="text-sm font-semibold text-ink">Now</h3>
+      <p class="mt-2 text-[15px] leading-relaxed">Studying, shipping small web games, learning how real codebases fit together.</p>
+    </div>
+    <div class=" border-l-2 border-accent pl-5">
+      <h3 class="text-sm font-semibold text-ink">Learning</h3>
+      <p class="mt-2 text-[15px] leading-relaxed">TypeScript, React, and the basics of retrieval over code.</p>
+    </div>
+    <div class=" border-l-2 border-accent pl-5">
+      <h3 class="text-sm font-semibold text-ink">Tools</h3>
+      <p class="mt-2 text-[15px] leading-relaxed">VS Code, Git, GitHub, and Vercel for hosting.</p>
+    </div>
+  </div>
+</section>

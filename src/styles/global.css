@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --color-accent: #0f766e;
+  --color-accent-strong: #0d655d;
+  --color-paper: #fafaf9;
+  --color-ink: #1c1917;
+  --color-muted: #57534e;
+  --color-line: #e7e5e4;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Shape system: buttons are full pill, cards are 16px, inputs are 8px. */
+.btn-primary {
+  border-radius: 999px;
+}
+.card {
+  border-radius: 16px;
+}
+
+/* Markdown case study body. Tailwind preflight resets headings,
+   so restyle the small set of elements projects actually use. */
+.md-body h2 {
+  margin-top: 1.25rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--color-ink);
+}
+.md-body h2:first-child {
+  margin-top: 0;
+}
+.md-body p {
+  margin-top: 0.35rem;
+}
+
+/* Entrance on load for the hero only. Sections below are static on purpose:
+   content must render with no JS, in screenshots, and in print. */
+@keyframes enter {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.enter {
+  animation: enter 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.enter-1 {
+  animation-delay: 0.05s;
+}
+.enter-2 {
+  animation-delay: 0.15s;
+}
+.enter-3 {
+  animation-delay: 0.25s;
+}
+.enter-4 {
+  animation-delay: 0.35s;
+}
+.enter-5 {
+  animation-delay: 0.45s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .enter {
+    animation: none;
+  }
+  * {
+    animation: none !important;
+  }
+}
