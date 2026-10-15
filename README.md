@@ -32,7 +32,8 @@ liveUrl: "https://example.com"
 repoUrl: "https://github.com/you/repo"
 featured: true
 order: 2
-coverSeed: "my-second-build"
+cover: "https://images.unsplash.com/photo-XXXX?q=80&w=1200&auto=format&fit=crop"
+coverAlt: "Describe the image in one line"
 ---
 
 ## What it is
@@ -41,12 +42,9 @@ coverSeed: "my-second-build"
 
 It appears on the page automatically. No code changes. Set `featured: false` to hide it without deleting it.
 
-## Images still needed (placeholders are live right now)
+## Images
 
-All current images are random placeholders. Replace before showing anyone who matters:
-
-1. Hero: `src/components/Hero.astro`, picsum seed `training-ground`. Use a real photo or a game screenshot, 960x720.
-2. Case study cover: `src/content/projects/guess-pl-footballer.md`, `coverSeed`. Use 2 real game screenshots at 1200x900, saved to `public/images/`, referenced directly.
+Hero and project covers are topical stock photos (Unsplash CDN) with honest alt text. They hold up, but real game screenshots are stronger. When ready, save them to `public/images/` and point the `cover` field (in the project markdown) or the hero `img` (in `src/components/Hero.astro`) at the local file.
 
 ## Deploy on Vercel
 

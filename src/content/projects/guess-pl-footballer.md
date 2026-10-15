@@ -6,7 +6,8 @@ liveUrl: "https://example.com"
 repoUrl: "https://github.com/"
 featured: true
 order: 1
-coverSeed: "guess-football-game"
+cover: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?q=80&w=1200&auto=format&fit=crop"
+coverAlt: "Football boot and ball on grass"
 ---
 
 ## What it is

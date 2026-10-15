@@ -12,7 +12,8 @@ const projects = defineCollection({
     repoUrl: z.string().url().optional(),
     featured: z.boolean().default(false),
     order: z.number().default(99),
-    coverSeed: z.string().default('project-cover'),
+    cover: z.string().default(''),
+    coverAlt: z.string().default('Project image'),
   }),
 });
 
