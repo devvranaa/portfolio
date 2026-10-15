@@ -2,3 +2,12 @@ node_modules/
 dist/
 .astro/
 .playwright-mcp/
+.vercel/
+
+.env
+.env.*
+
+*.log
+
+.DS_Store
+Thumbs.db
